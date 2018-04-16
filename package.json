@@ -16,7 +16,13 @@
     "jest-expo": "26.0.0",
     "react-dom": "^16.3.1",
     "react-native-scripts": "1.13.1",
-    "react-test-renderer": "^16.3.1"
+    "react-test-renderer": "^16.3.1",
+    "@storybook/react-native": "^3.4.1",
+    "@storybook/addon-actions": "^3.4.1",
+    "@storybook/addon-links": "^3.4.1",
+    "@storybook/addons": "^3.4.1",
+    "babel-core": "^6.26.0",
+    "prop-types": "^15.6.1"
   },
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
@@ -26,7 +32,8 @@
     "ios": "react-native-scripts ios",
     "test": "node node_modules/jest/bin/jest.js",
     "devtest": "node node_modules/jest/bin/jest.js --coverage --watch",
-    "lint": "./node_modules/.bin/eslint ."
+    "lint": "./node_modules/.bin/eslint .",
+    "storybook": "storybook start -p 7007"
   },
   "jest": {
     "preset": "jest-expo",
