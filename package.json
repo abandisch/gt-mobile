@@ -34,7 +34,7 @@
     "eject": "react-native-scripts eject",
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
-    "test": "node node_modules/jest/bin/jest.js",
+    "test": "node node_modules/jest/bin/jest.js --maxWorkers=4",
     "devtest": "node node_modules/jest/bin/jest.js --coverage --watch",
     "lint": "./node_modules/.bin/eslint .",
     "storybook": "concurrently --kill-others \"storybook start -p 7007\" \"REACT_NATIVE_STORYBOOK=true react-native-scripts start\""
