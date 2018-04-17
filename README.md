@@ -4,7 +4,7 @@ This app lets people that regularly go to the gym track their exercise results i
 
 ## Minimum Viable Product URL
 
-Expo: [My Buddy Gymmie - Mobile App](https://expo.io/@alexb/gym-tracker-mobile)
+Expo: [My Buddy Gymmie - Mobile App](https://expo.io/@alexb/my-buddy-gymmie)
 
 ## Stack
 
