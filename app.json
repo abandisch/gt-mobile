@@ -1,16 +1,16 @@
 {
   "expo": {
-    "name": "My Buddy Gym",
-    "description": "An app that allows you to track your gym weight lifting sessions",
+    "name": "My Buddy Gymmie",
+    "description": "Gymmie - your buddy that helps you to track your gym weight lifting sessions",
     "icon": "./src/assets/images/app-icon.png",
     "version": "1.0.0",
-    "slug": "my-buddy-gym",
+    "slug": "my-buddy-gymmie",
     "sdkVersion": "26.0.0",
     "ios": {
-      "bundleIdentifier": "com.abandisch.mybuddygym"
+      "bundleIdentifier": "com.abandisch.mybuddygymmie"
     },
     "android": {
-      "package": "com.abandisch.mybuddygym"
+      "package": "com.abandisch.mybuddygymmie"
     }
   }
 }
