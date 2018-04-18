@@ -50,7 +50,7 @@ storiesOf('Screen Template', module)
     ));
 
 storiesOf('App Components', module)
-  .add('Header', () => <Header title="My Buddy Gymmie" />)
+  .add('Header', () => <Header title="Gymmie" />)
   .add('Footer', () => <AppFooter appName="My cool app" appAuthor="Alex Bandisch" />)
   .add('App Intro', () => <AppIntro />);
 

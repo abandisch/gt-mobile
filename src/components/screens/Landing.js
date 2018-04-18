@@ -4,7 +4,12 @@ import Screen from '../Screen';
 import AppIntro from '../AppIntro';
 import LoginButtonsSection from '../LoginButtonsSection';
 
-const Landing = () =>
-  <Screen><View style={{ flex: 1 }}><AppIntro /><LoginButtonsSection /></View></Screen>;
+const Landing = () => (
+  <Screen>
+    <View>
+      <AppIntro />
+      <LoginButtonsSection />
+    </View>
+  </Screen>);
 
 export default Landing;

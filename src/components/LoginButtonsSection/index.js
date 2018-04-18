@@ -7,6 +7,7 @@ import GoogleLoginButton from '../LoginButton/GoogleLogin';
 
 const styles = StyleSheet.create({
   container: {
+    marginTop: 20,
     paddingLeft: 15,
     paddingRight: 15,
     paddingTop: 20,
@@ -22,7 +23,7 @@ const styles = StyleSheet.create({
 
 export const LoginSection = ({ isLoading }) => (
   <View style={styles.container}>
-    <Text style={styles.text}>Login with your social media account to start</Text>
+    <Text style={styles.text}>Login to start your workout</Text>
     {isLoading && <Text>Loading please wait...</Text>}
     {
       !isLoading &&

@@ -5,30 +5,21 @@ import PropTypes from 'prop-types';
 const styles = StyleSheet.create({
   container: {
     backgroundColor: '#012940',
-    flexDirection: 'column',
+    flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
     alignSelf: 'stretch',
     padding: 15,
   },
-  appName: {
+  footerText: {
     color: '#eee',
     paddingBottom: 5,
-  },
-  author: {
-    color: '#eee',
-    paddingBottom: 3,
-  },
-  copyright: {
-    color: '#eee',
   },
 });
 
 const AppFooter = ({ appName, appAuthor, copyrightYear }) => (
   <View style={styles.container}>
-    <Text style={styles.appName}>{appName}</Text>
-    <Text style={styles.author}>By {appAuthor}</Text>
-    <Text style={styles.copyright}>&copy; {copyrightYear}</Text>
+    <Text style={styles.footerText}>{appName} | By {appAuthor} | &copy; {copyrightYear}</Text>
   </View>
 );
 

@@ -2,9 +2,6 @@ import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
   heading: {
     fontSize: 20,
     marginBottom: 12,
@@ -13,6 +10,7 @@ const styles = StyleSheet.create({
   },
   paragraph: {
     marginBottom: 5,
+    textAlign: 'center',
   },
 });
 
@@ -20,19 +18,7 @@ const AppIntro = () => (
   <View style={styles.container}>
     <Text style={styles.heading}>Strength Exercise Tracking</Text>
     <Text style={styles.paragraph}>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    </Text>
-    <Text style={styles.paragraph}>
-      Donec ornare tristique ligula at consectetur. In quis lorem vitae urna
-      dignissim rutrum vitae non eros.
-    </Text>
-    <Text style={styles.paragraph}>
-      Donec ornare tristique ligula at consectetur. In quis lorem vitae
-      urna dignissim rutrum vitae non eros.
-    </Text>
-    <Text style={styles.paragraph}>
-      Donec ornare tristique ligula at consectetur. In quis lorem vitae
-      urna dignissim rutrum vitae non eros.
+      Use Gymmie to track your strength and weight lifting workouts at the gym.
     </Text>
   </View>
 );
