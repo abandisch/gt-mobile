@@ -31,7 +31,7 @@ describe('# fetchJWT ', () => {
     try {
       await fetchJWT(user);
     } catch (e) {
-      expect(e.message).toEqual('Problem connecting to GymBuddy.');
+      expect(e.message).toEqual('Problem connecting to Gymmie.');
     }
   });
 });
@@ -69,7 +69,7 @@ describe('# selectProgram ', () => {
     try {
       await selectProgram(user, programId, name, dateStarted);
     } catch (e) {
-      expect(e.message).toEqual('Problem connecting to GymBuddy.');
+      expect(e.message).toEqual('Problem connecting to Gymmie.');
     }
   });
 });

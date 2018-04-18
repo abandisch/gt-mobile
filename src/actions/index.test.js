@@ -63,7 +63,7 @@ describe('async actions', () => {
 
       const expectedActions = [
         { type: types.FETCH_JWT_REQUEST },
-        { type: types.FETCH_JWT_FAILURE, message: 'Problem connecting to GymBuddy.', user: { ...user } },
+        { type: types.FETCH_JWT_FAILURE, message: 'Problem connecting to Gymmie.', user: { ...user } },
       ];
 
       const store = mockStore({ });
@@ -111,7 +111,7 @@ describe('async actions', () => {
         { type: types.SELECT_PROGRAM_REQUEST },
         {
           type: types.SELECT_PROGRAM_FAILURE,
-          message: 'Problem connecting to GymBuddy.',
+          message: 'Problem connecting to Gymmie.',
         },
       ];
 
