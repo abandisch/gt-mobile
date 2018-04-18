@@ -7,8 +7,8 @@ import GraphQLWrapper from '../../../src/containers/GraphQLWrapper';
 const ProgramSelection = () => (
   <GraphQLWrapper>
     <Screen showFooter={false}>
-      <View style={{ flex: 1 }}>
-        <Text>Some intro text here about the training programs .... lorem ipsim</Text>
+      <View>
+        <Text>Please choose from one of the predefned workout programs.</Text>
         <ProgramList />
       </View>
     </Screen>

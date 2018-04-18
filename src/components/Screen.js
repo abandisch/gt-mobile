@@ -8,7 +8,7 @@ import Footer from './AppFooter';
 // TODO: Do something about the screens, so all info fits on one page
 const Screen = ({ children, showFooter }) => (
   <View style={{ flex: 1 }}>
-    <ScrollView contentContainerStyle={{ flex: 1 }}>
+    <ScrollView>
       <Header title={APP_NAME} slogan={APP_SLOGAN} />
       <View style={{ padding: 15 }}>{children}</View>
     </ScrollView>

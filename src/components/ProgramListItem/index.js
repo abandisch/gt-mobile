@@ -10,8 +10,6 @@ import { selectProgram } from '../../actions';
 const styles = {
   container: {
     marginBottom: 5,
-    marginLeft: 5,
-    marginRight: 5,
   },
   text: {
     color: '#222',
